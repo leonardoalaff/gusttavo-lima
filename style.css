@@ -27,6 +27,7 @@ header {
 
 header:hover {
     background-color: black;
+    transition-duration: 0.5s;
 }
 
 .menu {
