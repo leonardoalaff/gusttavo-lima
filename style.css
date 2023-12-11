@@ -51,10 +51,11 @@ header:hover {
     left: 10px;
     width: 200px;
     z-index: 12;
+    transform: scale(0.9);
 }
 
 .logo:hover {
-    transform: scale(0.8);
+    transform: scale(1);
     transition-duration: 0.5s;
 }
 
@@ -92,26 +93,51 @@ ul a:hover {
     z-index: 1;
 }
 
+.palmas {
+    color: transparent;
+    cursor: context-menu;
+}
+
+.palmas2 {
+    top: 248px;
+    left: 270px;
+    background-color: black;
+    transition-duration: 0.5s;
+    position: absolute;
+    font-size: 150px;
+    color: white;
+    border: 0;
+    letter-spacing: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    bottom: 600px;
+}
+
 .video-s1 {
     width: 100%;
 }
 
+.video2-s1 {
+    width: 100%;
+    filter: blur(25px);
+}
+
 .proximoshow {
-    background: url('imagens/background2.png') no-repeat right;
+    background: url('imagens/background4.png') no-repeat right;
     height: 120px;
     width: 190px;
     display: inline-block;
     padding: 0;
     border-radius: 5px;
     position: relative;
-    bottom: 450px;
+    bottom: 500px;
     left: 20px;
     color: white;
     cursor: default;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .proximoshow:hover {
-    color: black;
     background-position: left;
     transition-duration: 0.5s;
 }
@@ -123,37 +149,86 @@ ul a:hover {
 
 }
 
-.plataformas {
+/*.plataformas {
     display: flex;
     justify-content: center;
     position: relative;
     z-index: 4;
-    bottom: 370px;
+    bottom: 400px;
 }
 
-.sessao1 img {
-    background: rgba(0, 0, 0, 0.24);
-    margin: 10px;
-    border-radius: 30px;
+.plataformas2 {
+    display: none;
+}*/
+
+
+/*div img.seta {
+    box-shadow: none;
+    position: relative;
+    right: 116px;
+    padding-right: 100px;
+    top: 20px;
+    transform: scale(0.3);
 }
 
-.sessao1 img:hover {
-    background-color: black;
-    transition-duration: 0.5s;
+div img.seta:hover {
+    transform: scale(0.3);
+}*/
+
+div.linha {
+    position: absolute;
+    height: 275px;
+    width: 1.5px;
+    background-color: white;
+    top: 44px;
+    right: 1354px;
+
 }
 
-/*   IMG HOVERS   */
-img.spotifyimg:hover {
-    background: white;
+.textoSocial {
+    text-underline-offset: 10px;
+    position: absolute;
+    right: 1230px;
+    top: 153px;
+    transform: rotate(-90deg);
+    color: white;
+    letter-spacing: 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-img.youtubeimg:hover {
-    background: red;
+.social {
+    border-radius: 20px;
+    position: relative;
+    left: 1350px;
+    bottom: 750px;
+    padding-left: 20px;
 }
 
-img.deezerimg:hover {
-    background: blue;
+.social:hover {
+    left: 1270px;
+    transition-duration: 0.4s;
 }
+
+.social img{
+    padding: 7px;
+    position: relative;
+    right: 25px;
+    top: 10px;
+    display: block;
+    transform: scale(0.3);
+}
+
+.social img:hover {
+    transform: scale(0.5);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+/*   IMGs SEPARADAS HOVERS   */
+
+
+
 
 /*
 **** Sessão 2 ****

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gusttavo Lima | Embaixador</title>
+    <script src="conf-jvs.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,9 +26,9 @@
         </header>
 
     <section class="sessao1">
-        <video src="videos/videoplayback.mp4" autoplay loop muted class="video-s1"></video>
+        <video src="videos/videoplayback2.mp4" autoplay loop muted class="video-s1" id="video"></video>
 
-        <div class="proximoshow">
+        <div class="proximoshow" id="proximoShow" onmouseover="desfoque()" onmouseout="foco()">
             <div class="info">
                 <h2>Próximo show:</h2>
                 <p><span class="dia">03 / NOV</span></p>
@@ -36,12 +37,32 @@
             </div>
         </div>
 
-        <div class="plataformas">
+
+            <h1 id="palmas" class="palmas">PALMAS</h1>
+
+       <!-- <div id="plataformas" class="plataformas">
             <a href="https://open.spotify.com/artist/7MiDcPa6UiV3In7lIM71IN" target="_blank"><img src="imagens/logo-spotify.png" alt="Spotify" class="spotifyimg"></a>
 
             <a href="https://www.youtube.com/@gusttavolimaoficial" target="_blank"><img src="imagens/logo-youtube.png" alt="YouTube" class="youtubeimg"></a>
             
             <a href="https://www.deezer.com/br/artist/1541592" target="_blank"><img src="imagens/logo-deezer.png" alt="Deezer" class="deezerimg"></a>
+        </div>-->
+        
+        
+
+        <div class="social">
+            <div class="linha"></div>
+
+            <p class="textoSocial">SOCIAL</p>
+
+            <!--<img src="imagens/seta3.png" alt="Seta" class="seta">-->
+
+
+            <img src="imagens/SpotifyBranco.png" alt="Spotfy">
+
+            <img src="imagens/logoYoutubeBranco.png" alt="YouTube">
+
+            <img src="imagens/DeezerBranco.png" alt="Deezer">
         </div>
     </section>
 
